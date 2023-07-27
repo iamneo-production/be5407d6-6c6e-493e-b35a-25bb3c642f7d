@@ -1,0 +1,218 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+body , html {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: blue;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
+}
+.primary-button:hover {
+    background: white;
+    transition: all .5s
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    bottom: 50px;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+
+
+.sidebar {
+    width: 210px;
+    background-color:transparent;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    border-radius: 30px;
+    position: fixed !important; 
+    border-color: white;
+    margin-left: 1250px;
+    
+
+  }
+ 
+  .sidebar ul {
+    list-style-type: none;
+    padding:  0;
+    
+    
+  }
+  
+  .sidebar li {
+    margin-bottom: 30px;
+    text-align: center;
+    
+  }
+  
+  
+  
+  .sidebar a:hover {
+    color:white;
+    background-color: pink;
+  }
+
+
+  .content {
+    flex: 1;
+    padding: 20px;
+    right:-200px;
+    text-align: left;
+    position: relative;
+    top: -650px;
+    
+  }
+  
+  .footer{
+    background-color: black;
+    bottom: -50px;
+  }
+
+  .navbar.a:hover{
+    background:pink;
+    transition: all .5s
+
+  }
+  
+  .hello{
+      padding-bottom: 0;
+      height: 100%;
+  }
+
+
+
+
+  
